@@ -1,0 +1,122 @@
+body {
+	background-color: #5B7075 !important;
+}
+
+#navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #386875;
+	}
+
+.nav-li {
+	float: left;
+}
+
+.nav-li > a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-right-style: solid;
+	border-right-color: #C0EBF7;
+}
+
+li a:hover {
+    background-color: #C0EBF7;
+    color: #386875;
+}
+
+#main-content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#myCarousel {
+	width: 50%;
+	height: 275px;
+}
+
+.main-header {
+	text-align: center;
+	color: white;
+}
+
+.item {
+	margin: auto;
+}
+
+.item {
+  text-align: center;
+}
+
+.parent {
+  min-height: 200px;
+}
+
+.item img {
+  display: block;
+  margin: auto;
+}
+
+#credit {
+	text-align: center;
+}
+
+.caption {
+	font-size: 20px;
+	text-align: left;
+}
+
+.accordion {
+  background-color: #386875;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active-resource, .accordion:hover {
+  background-color: #C0EBF7;
+  color: #4a7538;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #498797;
+  border: 1px solid #C0EBF7;
+  border-top: none;
+  display: none;
+  overflow: hidden;
+} 
+
+
+
+.resources-list > li {
+	margin: 5px;
+	list-style-type:none
+}
+
+#puzzle-container {
+	display: flex;
+	justify-content: center;
+}
+
+#move-list {
+	display: none;
+	background-color: #386875;
+	color: white;
+	height: 400px;
+	overflow: scroll;
+}
+
+#move-list > li {
+	padding: 20px;
+}
